@@ -132,7 +132,7 @@ DTW between set of series
 
 To compute the DTW distance measures between all sequences in a list of
 sequences, use the method ``dtw.distance_matrix``. You can speed up the
-computation by using the ``dtw.distance_matrix_fact`` method that tries
+computation by using the ``dtw.distance_matrix_fast`` method that tries
 to run all algorithms in C. Also parallelization can be activated using
 the ``parallel`` argument.
 
